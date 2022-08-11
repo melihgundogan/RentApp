@@ -1,0 +1,46 @@
+name: rent_app
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+dependencies:
+  animated_splash_screen: ^1.2.0
+  build_runner: ^2.1.11
+  cupertino_icons: ^1.0.2
+  dio: ^4.0.6
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  font_awesome_flutter: ^10.1.0
+  http: ^0.13.4
+  http_parser: ^4.0.1
+  image_picker: ^0.8.5+3
+  intl: ^0.17.0
+  json_annotation: ^4.5.0
+  json_serializable: ^6.2.0
+  kartal: ^2.1.0
+  lottie: any
+  page_transition: ^2.0.5
+  path: ^1.8.1
+  provider: ^6.0.3
+  shared_preferences: ^2.0.15
+  shimmer: ^2.0.0
+  circular_bottom_navigation: any
+  test: ^1.21.1
+  get_it: ^7.2.0
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/
